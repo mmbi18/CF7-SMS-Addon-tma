@@ -60,8 +60,6 @@ function cf7_sms_addon_save_settings($contact_form) {
 add_action('wpcf7_after_save', 'cf7_sms_addon_save_settings');
 function sms_send_shortcodetma() {
     
-    s_fast2MSGway('aa0a3f35a4ca1a07e9da6c2276a1009c', '09981009827', '09981009827', 't', 't', 12965, 1, 1);
-    
 }
 //add_shortcode('tmasms', 'sms_send_shortcodetma');
 // ارسال پیامک پس از ارسال فرم
